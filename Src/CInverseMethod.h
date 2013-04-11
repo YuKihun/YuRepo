@@ -22,9 +22,9 @@ public:
 	int VincentyInverse( sEllipsoid *e, double lat1, double lon1, double lat2, double lon2 );
 
 	//두 좌표간의 거리
-	double GetDistance( ){ return m_dDistance; }
+	double GetDistance( ) const { return m_dDistance; }
 
 	//두 좌표에서 서로 바라보는 방위각
-	double GetFwdAz( ){ return m_dFwdAz * R2D; }
-	double GetRevAz( ){ return m_dRevAz * R2D; }
+	double GetFwdAz( ) const { return m_dFwdAz * R2D; }
+	double GetRevAz( ) const { return m_dRevAz * R2D; }
 };

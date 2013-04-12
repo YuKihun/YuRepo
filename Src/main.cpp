@@ -3,6 +3,7 @@
 
 int main( )
 {
+	int a = 1; //test
 	double dLatOfSource = 30.00; //시작 Lat
 	double dLongOfSource = 120.00; //시작 Lat
 
